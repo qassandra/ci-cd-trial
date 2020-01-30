@@ -4,13 +4,15 @@
   "description": "CI/CD trial",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha --exit"
   },
   "author": "padfoot",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^7.0.1"
   }
-
-
 }
